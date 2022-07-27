@@ -4,7 +4,7 @@ import { ApolloClient, InMemoryCache, DefaultOptions } from '@apollo/client';
 import Image from 'next/image';
 import HeaderImage from '../public/img/header-default-image.png';
 import DOMPurify from 'isomorphic-dompurify';
-import { GET_PAGE } from '../../chakra-ui-test/queries/get_page';
+import { GET_PAGE } from '../queries/get_page';
 import { Box, Container, Heading, Stack, Text, VStack } from '@chakra-ui/react';
 
 const defaultOptions: DefaultOptions = {
